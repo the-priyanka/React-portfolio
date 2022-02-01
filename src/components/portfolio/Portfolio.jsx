@@ -29,7 +29,6 @@ const Portfolio = () => {
 
       default:
         setData(javaScript);
-        break;
     }
   }, [selected]);
 
@@ -49,7 +48,7 @@ const Portfolio = () => {
 
       <div className="container">
         {data.map((d) => (
-          <div className="item">
+          <div className="item" key={d.id}>
             <img src={d.img} alt="" />
             <h3>{d.title}</h3>
           </div>
