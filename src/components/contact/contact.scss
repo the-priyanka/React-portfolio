@@ -65,6 +65,10 @@
         font-weight: 500;
         cursor: pointer;
 
+        @include mobile {
+          margin-bottom: 5px;
+        }
+
         &:focus {
           outline: none;
         }
