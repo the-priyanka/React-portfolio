@@ -10,7 +10,7 @@
     .imgContainer {
       width: 600px;
       height: 600px;
-      border: 10px solid $mainColor;
+      border: 10px solid $secondaryColor;
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
@@ -47,7 +47,7 @@
 
         span {
           font-size: inherit;
-          color: $mainColor;
+          color: $secondaryColor;
         }
 
         .ityped-cursor {
