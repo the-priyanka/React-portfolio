@@ -51,7 +51,13 @@ const Portfolio = () => {
         {data.map((d, index) => (
           <div className="item" key={index}>
             <img src={d.img} alt="" />
-            <h3>{d.title}</h3>
+            <a
+              href={d.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {d.title}
+            </a>
           </div>
         ))}
       </div>

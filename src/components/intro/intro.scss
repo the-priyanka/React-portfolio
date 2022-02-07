@@ -9,7 +9,7 @@
   }
 
   .left {
-    flex: 0.5;
+    flex: 0.6;
     overflow: hidden;
 
     .imgContainer {
@@ -30,7 +30,8 @@
         object-fit: cover;
 
         @include mobile {
-          height: 60%;
+          height: 54%;
+          width: inherit;
         }
       }
     }
