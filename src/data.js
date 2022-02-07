@@ -3,6 +3,7 @@ export const javaScript = [
     id: 1,
     title: "My-portfolio ",
     img: "/assets/portfolioImg/1.png",
+    link: "#https://the-priyanka.github.io/My-portfolio/",
   },
   {
     id: 2,

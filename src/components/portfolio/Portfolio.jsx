@@ -10,11 +10,11 @@ const Portfolio = () => {
   const list = [
     {
       id: "JavaScript",
-      title: "JavaScript Web",
+      title: "JavaScript",
     },
     {
       id: "React",
-      title: "React Web",
+      title: "React",
     },
   ];
 
@@ -36,8 +36,9 @@ const Portfolio = () => {
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
       <ul>
-        {list.map((item) => (
+        {list.map((item, index) => (
           <PortfolioList
+            key={index}
             title={item.title}
             active={selected === item.id}
             setSelected={setSelected}
@@ -47,8 +48,8 @@ const Portfolio = () => {
       </ul>
 
       <div className="container">
-        {data.map((d) => (
-          <div className="item" key={d.id}>
+        {data.map((d, index) => (
+          <div className="item" key={index}>
             <img src={d.img} alt="" />
             <h3>{d.title}</h3>
           </div>
