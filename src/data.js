@@ -68,4 +68,10 @@ export const react = [
     img: "/assets/portfolioImg/review.png",
     link: "https://review-lyart.vercel.app/",
   },
+  {
+    id: 4,
+    title: "Grocery Bud",
+    img: "/assets/portfolioImg/grocery.png",
+    link: "https://grocery-bud-rho.vercel.app/",
+  },
 ];
