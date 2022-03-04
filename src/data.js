@@ -80,4 +80,10 @@ export const react = [
     img: "/assets/portfolioImg/stripe.png",
     link: "https://stripe-alpha.vercel.app/",
   },
+  {
+    id: 6,
+    title: "Light and Dark Mode",
+    img: "/assets/portfolioImg/darkMode.png",
+    link: "https://dark-mode-beryl.vercel.app/  ",
+  },
 ];
