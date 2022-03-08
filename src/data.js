@@ -84,6 +84,12 @@ export const react = [
     id: 6,
     title: "Light and Dark Mode",
     img: "/assets/portfolioImg/darkMode.png",
-    link: "https://dark-mode-beryl.vercel.app/  ",
+    link: "https://dark-mode-beryl.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "Hacker News",
+    img: "/assets/portfolioImg/hacker_news.png",
+    link: "https://hacker-news-iota.vercel.app/",
   },
 ];
