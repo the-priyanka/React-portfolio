@@ -92,4 +92,10 @@ export const react = [
     img: "/assets/portfolioImg/hacker_news.png",
     link: "https://hacker-news-iota.vercel.app/",
   },
+  {
+    id: 8,
+    title: "Quiz",
+    img: "/assets/portfolioImg/quiz.png",
+    link: "https://quiz-sandy-xi.vercel.app/",
+  },
 ];
